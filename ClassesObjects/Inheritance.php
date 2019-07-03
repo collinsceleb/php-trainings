@@ -41,5 +41,5 @@ class Author extends Person {
         return$this->penName.PHP_EOL;
     }
 }
-$newAuthor = new Author("Kolawole Meshack", "Afuye", 1899);
+$newAuthor = new Author("Collinsceleb", "Sylvester", 1899);
 echo $newAuthor->getFullName();

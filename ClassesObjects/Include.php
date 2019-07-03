@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 include 'Person.php';
-include 'Author.php';
+include_once 'Author.php';
 
 $newAuthor = new Author("Collinsceleb", "Sylvester", 1899);
 echo $newAuthor->getCompleteName();

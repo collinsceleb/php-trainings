@@ -29,5 +29,5 @@ class Person {
         $this->firstName = $tempName;
     }
 }
-$myObject = new Person("Kolawole Meshack", "Afuye", 1899);
+$myObject = new Person("Collinsceleb", "Sylvester", 1899);
 echo $myObject->getFirstName();
